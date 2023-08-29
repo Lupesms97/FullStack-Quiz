@@ -1,0 +1,115 @@
+
+<div 
+
+  [formGroup]="form"
+  id="contato"
+>
+    <div class="py-5 position-relative titles">
+      <h1 class="fontTexto text-center">Preencha seus dados</h1>
+      <h3 class="text-center">Para enviar sua ficha cadastral</h3>
+    </div>
+    <div class="position-absolute overlay">
+      <img class="iconeEmail" src="assets/emailazulredondo.png" alt="" />
+    </div>
+    <div
+      class="container containerSectionForms rounded-3 position-relative">
+      <div class="row p-5">
+        <div class="col-lg-6 col-sm-12 text-center mt-1 mb-2">
+          <img class="imgForms" src="assets/img-contato.jpg" alt="" />
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-5 camposSection">
+          <form class="my-2" action="javascript:void(0)">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="form-group mt-2">
+                    <label for="empresa">Para qual das empresa você está se candidatando?</label>
+                    <select formControlName="empresa" class="form-select" 
+                    class="form-control"
+                    type="select"
+                    name="email"
+                    id="email"
+                    >
+                      <option value="YES">YES! IDIOMAS</option>
+                      <option value="ITEC">ITEC</option>
+                      <option value="INSTITUTO GOURMET">INSTITUTO GOURMET</option>
+                      <option value="UNICESUMAR">UNICESUMAR</option>
+                     
+                    </select>
+                  </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="form-group mt-2">
+                  <label for="setor">Para qual setor?</label>
+                  <select formControlName="setor" class="form-select" 
+                  class="form-control"
+                  type="select"
+                  name="email"
+                  id="email"
+                  >
+                    <option value="FINANCEIRO">FINANCEIRO</option>
+                    <option value="COMERCIAL">COMERCIAL</option>
+                    <option value="AULIXAR DE SERVIÇOS GERAIS">AULIXAR DE SERVIÇOS GERAIS</option>
+                    <option value="MONITOR">MONITOR</option>
+                    <option value="INSTRUTOR">INSTRUTOR</option>
+                    <option value="INSTRUTOR">PROFESSOR</option>
+                    <option value="PEDAGOGICO">PEDAGOGICO</option>
+                    <option value="COMERCIAL">COMERCIAL</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="form-group mt-2">
+                  <label for="name" > Nome:</label>
+                  <input
+                    formControlName="from_name"
+                    #name
+                    id="name"
+                    class="form-control"
+                    type="text"
+                    name="name"
+                    
+                  />
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="form-group mt-2">
+                  <label for="email" > Email:</label>
+                  <input
+                  formControlName="from_email"
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    id="email"
+                    
+                  />
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="form-group mt-2">
+                  <label for="telefone" > Telefone:</label>
+                  <input 
+                    formControlName="from_phone"
+                    class="form-control"
+                    type="text"
+                    
+                  />
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <button
+                  (click)="postmethod($event)"
+                  type="submit"
+                  class="btn btn-lg mt-3 text-black rounded-5 botaoSubmit"
+                  routerLink="/congrats"
+                >
+                  <span>Receber</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+

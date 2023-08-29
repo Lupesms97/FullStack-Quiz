@@ -1,0 +1,537 @@
+{
+    "questions": [
+      {
+        "questionText": "Eu sou ...",
+        "options": [
+          {
+            "text": "Idealista, criativo e visionário",
+            "animal":"eagle"
+          },
+          {
+            "text": "Divertido, espiritual e benéfico",
+            "animal":"cat"
+          },
+          {
+            "text": "Confiável, meticuloso e previsível",
+            "animal":"wolf"
+          },
+          {
+            "text": "Focado, determinado e persistente",
+            "animal":"shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu gosto de...",
+        "options": [
+          {
+            "text": "Ser piloto",
+            "animal":"shark"
+          },
+          {
+            "text": "Conversar com os passageiros",
+            "animal":"cat"
+          },
+          {
+            "text": "Planejar a viagem",
+            "animal":"wolf"
+          },
+          {
+            "text": "Explorar novas rotas",
+            "animal":"eagle"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Se você quiser se dar bem comigo...",
+        "options": [
+          {
+            "text": "Me dê liberdade",
+            "animal":"eagle"
+          },
+          {
+            "text": "Me deixe saber sua expectativa",
+            "animal":"wolf"
+          },
+          {
+            "text": "Lidere, siga ou saia do caminho",
+            "animal":"shark"
+          },
+          {
+            "text": "Seja amigável, carinhoso e compreensivo"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Para conseguir obter bons resultados é preciso...",
+        "options": [
+          {
+            "text": "Ter incertezas",
+            "animal":"eagle"
+          },
+          {
+            "text": "Controlar o essencial",
+            "animal":"wolf"
+          },
+          {
+            "text": "Diversão e cerebração",
+            "animal":"cat"
+          },
+          {
+            "text": "Planejar e obter recursos",
+            "animal":"shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu me divirto quando...",
+        "options": [
+            
+
+
+          {
+            "text": "Estou me exercitando",
+            "animal":"shark"
+          },
+          {
+            "text": "Estou com outros",
+            "animal":"cat"
+          },
+          {
+            "text": "Tenho novidades",
+            "animal":"eagle"
+          },
+          {
+            "text": "Determino as regras",
+            "animal":"wolf"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu sempre gostei de...",
+        "options": [
+          {
+            "text": "Explorar",
+            "animal":"eagle"
+          },
+          {
+            "text": "Evitar surpresas",
+            "animal":"wolf"
+          },
+          {
+            "text": "Focalizar a meta",
+            "animal":"shark"
+          },
+          {
+            "text": "Realizar uma abordagem natural",
+            "animal":"cat"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu gosto de mudanças se...",
+        "options": [
+          {
+            "text": "Me der uma vantagem competitiva",
+            "animal":"shark"
+          },
+          {
+            "text": "For divertido e puder ser compartilhado",
+            "animal":"cat"
+          },
+          {
+            "text": "Me der mais liberdade e variedade",
+            "animal":"eagle"
+          },
+          {
+            "text": "Melhorar ou me der mais controle",
+            "animal":"wolf"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Não existe nada de errado em...",
+        "options": [
+          {
+            "text": "Se colocar na frente",
+            "animal":"shark"
+          },
+          {
+            "text": "Colocar os outros na frente",
+            "animal":"cat"
+          },
+          {
+            "text": "Controlar a situação",
+            "animal":"eagle"
+          },
+          {
+            "text": "Ser cuidadoso e preciso",
+            "animal":"wolf"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu penso que...",
+        "options": [
+          {
+            "text": "Unidos venceremos, dividos perderemos",
+            "animal": "cat" 
+          },
+          {
+            "text": "o Ataque é a melhor defesa",
+            "animal": "shark"
+          },
+          {
+            "text": "É bom ser manso, mas andar com porrete",
+            "animal": "eagle"
+          },
+          {
+            "text": "Um homem prevenido vale por dois",
+            "animal": "wolf"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Minha preocupação é...",
+        "options": [
+          {
+            "text": "Gerar uma ideia global",
+            "animal": "eagle"
+          },
+          {
+            "text": "Fazer com que as pessoas gostem",
+            "animal": "cat"
+          },
+          {
+            "text": "Fazer com que funcione",
+            "animal": "wolf"
+          },
+          {
+            "text": "Fazer com que aconteça",
+            "animal": "shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu prefiro...",
+        "options": [
+          {
+            "text": "Perguntas a respostas",
+            "animal": "eagle"
+          },
+          {
+            "text": "Ter todos os detalhes",
+            "animal": "wolf"
+          },
+          {
+            "text": "Vantagens a meu favor",
+            "animal": "shark"
+          },
+          {
+            "text": "Que todos tenham a chance de serem ouvidos",
+            "animal": "cat"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu gosto de...",
+        "options": [
+          {
+            "text": "Fazer progresso",
+            "animal": "shark"
+          },
+          {
+            "text": "Construir memórias",
+            "animal": "cat"
+          },
+          {
+            "text": "Fazer sentido",
+            "animal": "wolf"
+          },
+          {
+            "text": "Tornar as pessoas confortáveis",
+            "animal": "eagle"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu gosto de chegar...",
+        "options": [
+          {
+            "text": "Na frente",
+            "animal": "shark"
+          },
+          {
+            "text": "Junto",
+            "animal": "cat"
+          },
+          {
+            "text": "Na hora",
+            "animal": "eagle"
+          },
+          {
+            "text": "Em outro lugar",
+            "animal": "wolf"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu gosto de...",
+        "options": [
+          {
+            "text": "Complexidade, mesmo se confuso",
+            "animal": "eagle"
+          },
+          {
+            "text": "Ordem e sistematização",
+            "animal": "wolf"
+          },
+          {
+            "text": "Calor humano e animação",
+            "animal": "cat"
+          },
+          {
+            "text": "Coisas claras e simples",
+            "animal": "shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Tempo para mim é...",
+        "options": [
+          {
+            "text": "Algo que detesto desperdiçar",
+            "animal": "shark"
+          },
+          {
+            "text": "Um grande ciclo",
+            "animal": "cat"
+          },
+          {
+            "text": "Uma flecha que leva ao inevitável",
+            "animal": "wolf"
+          },
+          {
+            "text": "Irrelevante",
+            "animal": "eagle" 
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Se eu fosse bilionário...",
+        "options": [
+          {
+            "text": "Faria doações para muitas entidades",
+            "animal": "cat"
+          },
+          {
+            "text": "Criaria uma poupança avantajada",
+            "animal": "wolf"
+          },
+          {
+            "text": "Faria o que desse na cabeça",
+            "animal": "eagle"
+          },
+          {
+            "text": "Exibiria bastante com algumas pessoas",
+            "animal": "shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu acredito que...",
+        "options": [
+          {
+            "text": "O destino é mais importante que a jornada",
+            "animal": "shark"
+          },
+          {
+            "text": "A jornada é mais importante que o destino",
+            "animal": "cat"
+          },
+          {
+            "text": "Um centavo economizado é um centavo ganho",
+            "animal": "wolf"
+          },
+          {
+            "text": "Bastam um navio e uma estrela para navegar",
+            "animal": "eagle"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu acredito também que...",
+        "options": [
+          {
+            "text": "Aquele que hesita está perdido",
+            "animal": "shark"
+          },
+          {
+            "text": "De grão em grão a galinha enche o papo",
+            "animal": "wolf"
+          },
+          {
+            "text": "O que vai, volta",
+            "animal": "cat"
+          },
+          {
+            "text": "Um sorriso ou uma careta é o mesmo para quem é cego",
+            "animal": "eagle"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Um ótimo dia para mim é quando...",
+        "options": [
+          {
+            "text": "Consigo fazer muitas coisas",
+            "animal": "shark"
+          },
+          {
+            "text": "Me divirto com meus amigos",
+            "animal": "cat"
+          },
+          {
+            "text": "Tudo segue conforme planejado",
+            "animal": "wolf"
+          },
+          {
+            "text": "Desfruto de coisas novas e estimulantes",
+            "animal": "eagle"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu vejo a morte como...",
+        "options": [
+          {
+            "text": "Uma grande aventura misteriosa",
+            "animal": "eagle"
+          },
+          {
+            "text": "Oportunidade para rever os falecidos",
+            "animal": "cat"
+          },
+          {
+            "text": "Um modo de receber recompensas",
+            "animal": "wolf"
+          },
+          {
+            "text": "Algo que sempre chega muito cedo",
+            "animal": "shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Minha filosofia de vida é...",
+        "options": [
+          {
+            "text": "Para eu ganhar, ninguém precisa perder",
+            "animal": "cat"
+          },
+          {
+            "text": "Para ganhar é preciso seguir as regras",
+            "animal": "wolf"
+          },
+          {
+            "text": "Para ganhar, é necessário inventar novas regras",
+            "animal": "eagle"
+          },
+          {
+            "text":"Há ganhadores e perdedores, e eu acredito ser um ganhador" ,
+            "animal": "shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu acredito que...",
+        "options": [
+          {
+            "text": "É melhor prudência do que arrependimento",
+            "animal": "wolf"
+          },
+          {
+            "text": "A autoridade deve ser desafiada",
+            "animal": "eagle"
+          },
+          {
+            "text": "Ganhar é fundamental",
+            "animal": "shark"
+          },
+          {
+            "text": "O coletivo é mais importante do que o individual",
+            "animal": "cat"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu penso que...",
+        "options": [
+          {
+            "text": "Não é fácil ficar encurralado",
+            "animal":"wolf"
+          },
+          {
+            "text": "É preferível olhar, antes de pular",
+            "animal": "eagle"
+          },
+          {
+            "text": "Duas cabeças pensam melhor do que uma",
+            "animal": "cat"
+          },
+          {
+            "text": "Se você não tem condições de competir, não compita",
+            "animal": "shark"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "questionText": "Eu gosto de buscar conselhos de...",
+        "options": [
+          {
+            "text": "Pessoas bem sucedidas",
+            "animal":"shark"
+          },
+          {
+            "text": "Anciões e conselheiros",
+            "animal":"cat" 
+          },
+          {
+            "text": "Autoridades no assunto",
+            "animal": "wolf" 
+          },
+          {
+            "text": "Lugares, os mais estranhos",
+            "animal": "eagle"
+          }
+        ],
+        "explanation": ""
+      }
+      
+      
+    ]
+  }
+  

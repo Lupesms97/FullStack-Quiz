@@ -1,0 +1,117 @@
+<div class="container">
+  <div class="m-4 pb-3 container-div mx-auto my-auto">
+    <ng-container *ngIf="!questionsIsComplet">
+      <div class="container-questions ">
+        <div class="questions-card row">
+          <div class="row mx-auto">
+            <div class="col-12 ">
+              <h1 class="text-center title ">Análise de Perfil Comportamental</h1>
+              <h2 class="text-center questions">
+                {{questionsList[currentQuestion]?.questionText}}
+              </h2>
+            </div>
+          </div>
+          <div class="row mx-2 justify-content-center mb-3 mx-auto">
+            <div class="col-lg-3 col-md-12" *ngFor="let option of questionsList[currentQuestion]?.options">
+              <button type="submit" class="btn rounded-5 btnQuestion" (click)="funcButton(); answer(option)">
+                <span >{{option.text}}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  
+    <ng-container *ngIf="questionsIsComplet">
+      <div class="container response-questions my-5">
+        <div class="row mx-auto titlediv">
+          <div class="col-12 ">
+            <h1 class="text-center title-h">Análise de Perfil Comportamental</h1>
+          </div>
+        </div>
+        <div class="col text-white">
+          <div class="row grafic-card mx-auto mb-3">
+            <div>
+              <div>
+                <canvasjs-chart [options]="chartOptions" [styles]="{width: '100%', height:'auto'}"></canvasjs-chart>
+              </div>
+            </div>
+          </div>
+          <div class="row animal-card" id="animal-card">
+            <ng-container [ngSwitch]="strongAnimal">
+              <ng-container *ngSwitchCase="'Lobo'">
+                <div class="bg-wolf">
+                  <h2>O seu animal forte é: Lobo</h2>
+                  <p>
+                    Os lobos são estrategistas natos, agem com ponderação, normas e processos. São corretos, metódicos,
+                    pontuais, equilibrados, éticos e leais. Fazer melhor, para eles, é fazer bem feito. São conflituosos e
+                    têm baixo potencial para insubordinação. Organizados e com planeamento, sabem aonde querem chegar
+                    errando o menos possível. Têm grande dificuldade em se adaptar a mudanças. Adeptos a sistemas,
+                    processos, controle, organização e relações sólidas e estruturadas.
+                  </p>
+  
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Tubarão'">
+                <div class="bg-shark">
+                  <h2>O seu animal forte é: Tubarão</h2>
+                  <p>
+                    Pessoas tubarão estão presentes para o que der e vier e deixam claro para o que vieram. Vão atrás do
+                    que querem sem perder tempo esperando o “momento mais favorável”. Têm senso de urgência e querem tudo
+                    para ontem, normalmente metendo os pés pelas mãos. Excelentes executores, não perdem tempo para
+                    colocar as decisões em prática. Dinâmicos, adoram estar em ação. São realizadores e multitarefas,
+                    tendo dificuldade em delegar. Diretos e não fazem rodeios para mostrar o que desejam.
+                  </p>
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Gato'">
+                <div class="bg-cat">
+                  <h2>O seu animal forte é: Gato</h2>
+                  <p>
+                    São indivíduos que gostam de trabalhar em equipa, andar em grupo, mantendo a harmonia perante a
+                    diversidade de perfis. Possuem a capacidade de fazer interação e definir os papéis de cada um num
+                    grupo distinto. Têm facilidade em se relacionar com as diversas áreas do ambiente corporativo. São
+                    comunicadores poderosos e com facilidade para assimilar ideias. Os Gatos não costumam falar dos seus
+                    problemas pois não gostam de mostrar fragilidade.
+                    <br>
+                    Buscam aceitação social pois almejam e precisam da admiração e reconhecimento dos demais. São
+                    generosos e buscam a igualdade, a felicidade e o bem-estar. O seu foco são as pessoas pois acreditam
+                    na partilha de sentimentos em busca de um mundo melhor. Apesar de bons comunicadores, têm dificuldade
+                    na arte da persuasão.
+  
+                  </p>
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Águia'">
+                <div class="bg-eagle">
+                  <h2>O seu animal forte é: Águia</h2>
+                  <p>
+                    Visionário, gosta de voar alto. Tem a inovação como uma característica determinante, pois vê mais
+                    longe, seguindo os caminhos que ninguém mais segue. São pessoas que planeiam o futuro construindo no
+                    presente aquilo que desejam alcançar. Normalmente são intuitivas e imaginativas, com uma sensibilidade
+                    criativa, buscando sempre inovar na forma de atingir os resultados. Aventuram-se por caminhos
+                    diferentes do tradicional ou dos quais já percorreu antes.
+                    <br>
+                    São pessoas inquietas, a calmaria incomoda-as, optando sempre por mudanças para sair da rotina. A
+                    Águia tem uma visão macro da situação, de forma que as minúcias e os pormenores não lhes chamam a
+                    atenção. Têm dificuldade em olhar para o aqui e o agora, pois estão sempre a olhar para o futuro. Não
+                    têm paciência para detalhes e para as coisas menos importantes. Perdem facilmente o interesse pelas
+                    ideias e projetos, pois há sempre algo novo e diferente que os fazem perder o foco e o entusiasmo.
+                  </p>
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchDefault>
+                <div>
+                  <h2>Animal não encontrado</h2>
+                </div>
+              </ng-container>
+            </ng-container>
+          </div>
+        </div>
+        <div class="row justify-content-around pt-5">
+          <button type="button" class="btn rounded-5 btnStart text-center p-2 mb-3" routerLink="/forms">Receber Perfil no email</button>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+#contato {
+  padding-bottom: 10vh;
+}
+.titles{
+  color:#ffffff;
+}
+.containerSectionForms {
+  background-color: #fff;
+  position: relative;
+}
+.botaoSubmit {
+  background-color: #7b93cf;
+  width: 20vw;
+}
+.imgForms {
+  width: 30vw;
+  height: 55vh;
+}
+.iconeEmail {
+  width: 8vw;
+  height: 16vh;
+}
+.overlay {
+  position: absolute;
+  z-index: 1;
+  margin-top: -8vh;
+  margin-left: 45vw;
+}
+@media(max-width: 768px){
+  .imgForms{
+    width:50vw;
+    height:auto
+  }
+  .containerSectionForms{
+    width:80%
+  }
+  .botaoSubmit{
+    margin-top:5vh;
+    width:50vw;
+  }
+  .iconeEmail {
+    width: auto;
+    height: 16vh;
+  }
+}
+@media(max-width: 475px){
+  .imgForms{
+    width:50vw;
+    height:auto
+  }
+  .containerSectionForms{
+    width:90%
+  }
+  .botaoSubmit{
+    margin-top:5vh;
+    width:60vw;
+  }
+  .iconeEmail {
+    width: auto;
+    height: 16vh;
+    margin-left:-6vw
+  }
+}
+@media(max-width: 475px){
+  .imgForms{
+    width:100%;
+    height:auto;
+  }
+
+}
+@media(max-width: 320px){
+  .iconeEmail {
+    width: auto;
+    height: 16vh;
+    margin-left:-12vw
+  }
+
+}
